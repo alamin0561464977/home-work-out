@@ -1,0 +1,25 @@
+.Card {
+    background-color: #5e8888;
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.user-div {
+    display: flex;
+    align-items: center;
+    background-color: #5c7474ab;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.user-div img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+    margin-right: 8px;
+}

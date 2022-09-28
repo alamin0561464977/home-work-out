@@ -1,10 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Card from './component/Card/Card';
+import Exercise from './component/Exercise/Exercise';
 
 function App() {
   return (
-    <div className="App">
-      <img src="https://cdn.fitimg.in/content_blog_inner_E4B1CDF6.gif" alt="" />
+    <div className="App container">
+      <section className='row'>
+        <div className='col-8'>
+          <Exercise></Exercise>
+        </div>
+        <div className='card-section col-4'>
+          <Card></Card>
+        </div>
+      </section>
     </div>
   );
 }
