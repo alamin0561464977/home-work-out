@@ -9,12 +9,15 @@
 }
 
 .user-div {
-    display: flex;
-    align-items: center;
     background-color: #5c7474ab;
     padding: 10px;
     border-radius: 10px;
 
+}
+
+.user {
+    display: flex;
+    align-items: center;
 }
 
 .user-div img {
@@ -22,4 +25,35 @@
     height: 80px;
     border-radius: 10%;
     margin-right: 8px;
+}
+
+.icon {
+    color: black;
+    margin-right: 4px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    background-color: #3a4d4d6b;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    background-color: #41707094;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.button button {
+    background-color: #51d4d49c;
+    border: 0;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
 }

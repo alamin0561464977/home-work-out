@@ -13,7 +13,7 @@ const ExerciseCard = ({ exercise }) => {
                     <h5>Time: {time}s</h5>
                     <p className="card-text">{text.slice(0, 125)}...</p>
                     <div class="d-grid gap-2">
-                        <button class="Button " type="button">Button</button>
+                        <button class="Button " type="button">Add to list</button>
                     </div>
                 </div>
             </div>
