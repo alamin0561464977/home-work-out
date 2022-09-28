@@ -1,0 +1,38 @@
+[
+    {
+        "name": "JUMPING JACKS",
+        "image": "https://cdn.fitimg.in/content_blog_inner_E4B1CDF6.gif",
+        "p-text": "Beginners should start with a daily set of 10 jumping jacks interspersed with other exercises, while more expert exercisers can aim for a daily set of 25 jumping jacks.",
+        "time": "30"
+    },
+    {
+        "name": "KNEE TO ELBOW CRUNCHES",
+        "image": "https://miro.medium.com/max/1290/1*YLeLyaY_ab7YOSWsZHdJng.gif",
+        "p-text": "Lay face down on the ground with extended legs. Point your toes while you place your hands beneath your shoulders. Push yourself up into the plank position. Maintaining a tight core and flat back, bring your left knee to your right elbow. Pause and slowly return each to the starting point.",
+        "time": "35"
+    },
+    {
+        "name": "LEG IN & OUTS",
+        "image": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/rcrunch.gif",
+        "p-text": "Generally, it's recommended to train your legs three times a week, with each workout lasting 15 to 20 minutes and targeting different parts of the legs in each routine. For instance, a good plan would be to work on calves one day, thighs the next and then hips during the final session.",
+        "time": "40"
+    },
+    {
+        "name": "90 / 90 CRUNCH",
+        "image": "https://thumbs.gfycat.com/DelectableFabulousCapeghostfrog-size_restricted.gif",
+        "p-text": "Lie in a 90–90 position with your hip and legs. Place your hands behind your head and lift your shoulder blades up. Tap your feet up and down in the 90 angle position, holding a moment at the top. Lower and repeat!",
+        "time": "30"
+    },
+    {
+        "name": "WINDSHIELD WIPERS",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvl11PbZo5bKe2mgBbTCcwH7GafcM8zHCt23UIM1kXu6YJJcBRv2iGHw1Rl2L4d-si6NQ&usqp=CAU",
+        "p-text": "Lie on your back with your arms straight out to the sides. Rotate the hips to one side, without letting the legs touch the floor. Lift your legs and return to the starting position. Rotate the hips to the opposite side and repeat until set is complete.",
+        "time": "25"
+    },
+    {
+        "name": "PUSH-UPS",
+        "image": "https://c.tenor.com/gI-8qCUEko8AAAAC/pushup.gif",
+        "p-text": "Get down on all fours, placing your hands slightly wider than your shoulders. Straighten your arms and legs. Lower your body until your chest nearly touches the floor. Pause, then push yourself back up. Repeat.",
+        "time": "35"
+    }
+]
