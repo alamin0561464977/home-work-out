@@ -13,7 +13,7 @@ const Exercise = ({ addToCard }) => {
         <div>
             <div className='title'>
                 <div>
-                    <h1>Home Work Ut</h1>
+                    <h1>Home Work </h1>
                     <h4>Select today’s exercise</h4>
                 </div>
             </div>

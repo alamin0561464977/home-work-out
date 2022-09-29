@@ -9,18 +9,21 @@ import './Card.css';
 const Card = ({ totalSeconds }) => {
     localStorage.setItem('totalSeconds', totalSeconds);
     const tSeconds = localStorage.getItem('totalSeconds');
-    const time = localStorage.getItem('breakTime');
-    const [times, setTimes] = useState(time ? time : 0);
+    const time = () => localStorage.getItem('breakTime') ? localStorage.getItem('breakTime') : 0;
+    console.log(time())
+    const [times, setTimes] = useState(time);
     const breakTime = time => {
         setTimes(time);
     };
     localStorage.setItem('breakTime', times);
+
 
     const activityCompleted = () => {
         localStorage.removeItem('totalSeconds');
         toast.success('Success today’s exercise!');
 
     }
+
     return (
         <div className='Card'>
             <section>
@@ -63,7 +66,7 @@ const Card = ({ totalSeconds }) => {
                 <div className="Exercise-Details">
                     <h3>Exercise Details</h3>
                     <h5>Exercise time: {tSeconds}s</h5>
-                    <h5>Break time: {time ? time : 0}s</h5>
+                    <h5>Break time: {localStorage.getItem('breakTime') ? localStorage.getItem('breakTime') : 0}s</h5>
                 </div>
                 <div className="d-grid gap-2">
                     <button onClick={activityCompleted} className="Button " type="button">Activity Completed</button>
