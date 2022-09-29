@@ -13,11 +13,11 @@ function App() {
   }
   return (
     <div className="App container">
-      <section className='row'>
-        <div className='col-8'>
+      <section className='section row'>
+        <div className='col-12 col-lg-8 col-sm-12'>
           <Exercise addToCard={addToCard}></Exercise>
         </div>
-        <div className='card-section col-4'>
+        <div className='card-section col-12 col-lg-4 col-sm-12'>
           <Card totalSeconds={totalSeconds}></Card>
         </div>
       </section>

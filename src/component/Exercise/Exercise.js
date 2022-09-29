@@ -26,9 +26,9 @@ const Exercise = ({ addToCard }) => {
                     ></ExerciseCard>)
                 }
             </div>
-            <div className="row mt-5 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-4">
-                <div>
-                    <div className="card text-bg-secondary mb-3" style={{ maxWidth: '18rem' }}>
+            <div className="row mt-5 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div className='col'>
+                    <div className="sm-w-100 card text-bg-secondary mb-3">
                         <div className="card-body">
                             <h4 className="card-title">how does react js works?</h4>
                             <hr />
@@ -36,7 +36,24 @@ const Exercise = ({ addToCard }) => {
                         </div>
                     </div>
                 </div>
-
+                <div className='col'>
+                    <div className="card text-bg-secondary mb-3">
+                        <div className="card-body">
+                            <h4 className="card-title">React props state difference?</h4>
+                            <hr />
+                            <p className="card-text">The key difference between props and state is that state is internal and controlled by the component itself while props are external and controlled by whatever renders the component.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='col'>
+                    <div className="card text-bg-secondary mb-3" >
+                        <div className="card-body">
+                            <h4 className="card-title">React useEffect</h4>
+                            <hr />
+                            <p className="card-text">The motivation behind the introduction of useEffect Hook is to eliminate the side-effects of using class-based components. For example, tasks like updating the DOM, fetching data from API end-points, setting up subscriptions or timers, etc can be lead to unwarranted</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

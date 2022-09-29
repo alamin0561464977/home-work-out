@@ -19,3 +19,9 @@ img {
 .Button:hover {
     background-color: rgb(128, 52, 67);
 }
+
+@media only screen and (max-width: 600px) {
+    #Card-exercise {
+        width: 100%;
+    }
+}

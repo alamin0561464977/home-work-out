@@ -6,7 +6,7 @@ const ExerciseCard = ({ exercise, addToCard }) => {
 
     return (
         <div className="col">
-            <div className="card">
+            <div id='Card-exercise' className="card">
                 <img src={image} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h4 className="card-title">{name}</h4>
