@@ -9,7 +9,6 @@ function App() {
   const addToCard = time => {
     const total = totalSeconds + JSON.parse(time)
     setTotalSeconds(total)
-    console.log(total)
   }
   return (
     <div className="App container">
