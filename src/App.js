@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { ToastContainer } from 'react-toastify';
 import './App.css';
 import Card from './component/Card/Card';
 import Exercise from './component/Exercise/Exercise';
@@ -20,6 +21,7 @@ function App() {
           <Card totalSeconds={totalSeconds}></Card>
         </div>
       </section>
+      <ToastContainer />
     </div>
   );
 }

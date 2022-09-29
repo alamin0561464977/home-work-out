@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import image from '../../images/amin-sord-img.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Card.css';
 
 const Card = ({ totalSeconds }) => {
@@ -16,7 +17,8 @@ const Card = ({ totalSeconds }) => {
 
     const activityCompleted = () => {
         localStorage.removeItem('totalSeconds');
-        toast("Wow so easy!");
+        toast.success('Success today’s exercise!');
+
     }
     return (
         <div className='Card'>
