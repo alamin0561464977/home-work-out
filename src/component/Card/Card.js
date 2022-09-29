@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import './Card.css';
 
-const Card = () => {
+const Card = ({ totalSeconds }) => {
+    localStorage.setItem('totalSeconds', totalSeconds);
+    const tSeconds = localStorage.getItem('totalSeconds');
     return (
         <div className='Card'>
             <section>
@@ -43,6 +45,14 @@ const Card = () => {
                         <button>40s</button>
                         <button>50s</button>
                     </div>
+                </div>
+                <div className="Exercise-Details">
+                    <h3>Exercise Details</h3>
+                    <h5>Exercise time: {tSeconds}s</h5>
+                    <h5>Break time: </h5>
+                </div>
+                <div className="d-grid gap-2">
+                    <button className="Button " type="button">Activity Completed</button>
                 </div>
             </section>
         </div>

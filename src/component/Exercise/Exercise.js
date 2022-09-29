@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ExerciseCard from '../Exercise-card/ExerciseCard';
 import './Exercise.css';
 
-const Exercise = () => {
+const Exercise = ({ addToCard }) => {
     const [exercises, setExercises] = useState([]);
     useEffect(() => {
         fetch('exercise.json')
@@ -22,6 +22,7 @@ const Exercise = () => {
                     exercises.map(exercise => <ExerciseCard
                         key={exercise.id}
                         exercise={exercise}
+                        addToCard={addToCard}
                     ></ExerciseCard>)
                 }
             </div>

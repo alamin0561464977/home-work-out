@@ -42,6 +42,11 @@
     border-radius: 10px;
 }
 
+.add-a-break {
+    margin: 30px 0;
+
+}
+
 .button {
     display: flex;
     justify-content: space-around;
@@ -51,9 +56,13 @@
 }
 
 .button button {
-    background-color: #51d4d49c;
+    background-color: crimson;
     border: 0;
     padding: 10px;
     border-radius: 50%;
     color: white;
+}
+
+.Exercise-Details {
+    margin: 30px 10px;
 }
